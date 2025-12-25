@@ -27,7 +27,7 @@
     -webkit-mask-size: 50% 100%;
     mask-repeat: repeat-x;
     -webkit-mask-repeat: repeat-x;
-    background: var(--wave-color);
+    background: var(--gradient-main);
     transform-origin: center bottom;
 }
 

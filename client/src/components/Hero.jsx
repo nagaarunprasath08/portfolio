@@ -2,6 +2,7 @@ import React from 'react';
 import { motion } from 'framer-motion';
 import { FaGithub, FaLinkedin, FaFileDownload } from 'react-icons/fa';
 import './Hero.css';
+import profileImg from '../assets/profile.jpg';
 
 const Hero = () => {
     return (
@@ -61,8 +62,7 @@ const Hero = () => {
                         transition={{ duration: 0.5, delay: 0.4 }}
                     >
                         <div className="hero-img-box">
-                            {/* REPLACE: Add your photo here */}
-                            <img src="https://via.placeholder.com/400x400/1a1a1a/ffffff?text=Your+Photo" alt="Profile" className="hero-img" />
+                            <img src={profileImg} alt="R.Nagaarun Prasath" className="hero-img" />
                         </div>
                     </motion.div>
                 </div>
