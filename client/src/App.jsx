@@ -7,7 +7,6 @@ import Skills from './components/Skills';
 import Projects from './components/Projects';
 import Contact from './components/Contact';
 import Footer from './components/Footer';
-import Admin from './components/Admin';
 import { ThemeProvider } from './context/ThemeContext';
 import { DataProvider } from './context/DataContext';
 
@@ -25,7 +24,6 @@ function AppContent() {
             <Contact />
           </main>
         } />
-        <Route path="/admin" element={<Admin />} />
       </Routes>
       <Footer />
     </>
